@@ -310,7 +310,7 @@ if page == "Executive Dashboard":
         fig_health = px.pie(values=status_counts.values, names=status_counts.index,
                            color_discrete_map={'Critical': '#dc2626', 'Warning': '#d97706', 'Normal': '#059669'})
         fig_health.update_layout(height=400)
-        st.plotly_chart(fig_health, width="stretch")
+        st.plotly_chart(fig_health, use_container_width=True)
     
     with col2:
         st.markdown('<div class="section-header">Performance vs Age Analysis</div>', unsafe_allow_html=True)
@@ -320,7 +320,7 @@ if page == "Executive Dashboard":
                                    hover_data=['Equipment_ID', 'Type'],
                                    color_discrete_map={'Normal': '#059669', 'Warning': '#d97706', 'Critical': '#dc2626'})
         fig_performance.update_layout(height=400)
-        st.plotly_chart(fig_performance, width="stretch")
+        st.plotly_chart(fig_performance, use_container_width=True)
     
     # Power consumption by location
     st.markdown('<div class="section-header">Power Consumption by Location</div>', unsafe_allow_html=True)
@@ -328,7 +328,7 @@ if page == "Executive Dashboard":
     
     fig_power = px.bar(x=power_by_zone.index, y=power_by_zone.values)
     fig_power.update_layout(height=350, yaxis_title="Power (kW)", title="Power Distribution")
-    st.plotly_chart(fig_power, width="stretch")
+    st.plotly_chart(fig_power, use_container_width=True)
     
     # Critical equipment alerts
     st.markdown('<div class="section-header">Critical Equipment Alerts</div>', unsafe_allow_html=True)
@@ -413,7 +413,7 @@ elif page == "Real-Time Operations":
         )
         
         fig_trends.update_layout(height=600, showlegend=False)
-        st.plotly_chart(fig_trends, width="stretch")
+        st.plotly_chart(fig_trends, use_container_width=True)
     
     # Fleet status overview
     st.markdown('<div class="section-header">Fleet Status Overview</div>', unsafe_allow_html=True)
@@ -456,14 +456,14 @@ elif page == "Predictive Analytics":
                          color_discrete_map={'Low': '#059669', 'Medium': '#d97706', 
                                            'High': '#dc2626', 'Critical': '#7c2d12'})
         fig_risk.update_layout(title="Equipment Risk Distribution")
-        st.plotly_chart(fig_risk, width="stretch")
+        st.plotly_chart(fig_risk, use_container_width=True)
         
         # Risk vs condition scatter
         fig_scatter = px.scatter(equipment_df, x='Condition_Score', y='Risk_Score',
                                color='Status', size='Age_Years',
                                hover_data=['Equipment_ID'])
         fig_scatter.update_layout(title="Risk vs Condition Score")
-        st.plotly_chart(fig_scatter, width="stretch")
+        st.plotly_chart(fig_scatter, use_container_width=True)
     
     with col2:
         st.markdown('<div class="section-header">Risk Analysis</div>', unsafe_allow_html=True)
@@ -520,13 +520,13 @@ elif page == "Asset Management":
     with col1:
         st.subheader("Age Distribution")
         fig_age = px.histogram(equipment_df, x='Age_Years', nbins=10)
-        st.plotly_chart(fig_age, width="stretch")
+        st.plotly_chart(fig_age, use_container_width=True)
     
     with col2:
         st.subheader("Equipment by Type")
         type_counts = equipment_df['Type'].value_counts()
         fig_type = px.pie(values=type_counts.values, names=type_counts.index)
-        st.plotly_chart(fig_type, width="stretch")
+        st.plotly_chart(fig_type, use_container_width=True)
 
 elif page == "Maintenance Operations":
     st.markdown('<h1 class="main-header">Maintenance Operations</h1>', unsafe_allow_html=True)
@@ -607,7 +607,7 @@ elif page == "Financial Analysis":
         
         fig_costs = px.pie(values=list(cost_categories.values()), 
                           names=list(cost_categories.keys()))
-        st.plotly_chart(fig_costs, width="stretch")
+        st.plotly_chart(fig_costs, use_container_width=True)
     
     with col2:
         st.subheader("ROI Analysis")

@@ -1,4 +1,10 @@
-# AI4I Analytics P- **Real-Time Operations Dashboard**: Live equipment monitoring and status tracking- **Predictive Analytics**: Machine learning-powered anomaly detection and failure predictiont- **Maintenance Ope**Angatech Technologies** is a leading provider of industrial IoT and predictive maintenance solutions. We specialize in:
+# AI4I Analytics Platform
+
+**Advanced Industrial Predictive Maintenance Dashboard by Angatech Technologies**
+
+## About Angatech Technologies
+
+**Angatech Technologies** is a leading provider of industrial IoT and predictive maintenance solutions. We specialize in:
 
 - **Advanced Analytics Platforms**
 - **Machine Learning Solutions**
@@ -6,18 +12,22 @@
 - **Predictive Maintenance Systems**
 - **Business Intelligence Dashboards**
 - **Data Engineering**
-- **Business Intelligence**
 - **Cloud Deployments**
 - **Dashboard Development**
 - **Database Management**
 - **Data Analysis**
-- 
-  *: Intelligent scheduling and resource optimization- **Financial Analysis**: Cost optimization and ROI trackingrm
+- **Intelligent Scheduling and Resource Optimization**
+- **Financial Analysis and Cost Optimization**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io/)
 [![AngaTech](angatech-high-resolution-logo.png)](https://ww.anga-tech.com)
+
+## Live Demo
+
+**Experience the platform live:** [**https://ai4i-2020-predictive-maintenance.streamlit.app/**](https://ai4i-2020-predictive-maintenance.streamlit.app/)
+
 Advanced Industrial Predictive Maintenance Dashboard developed by **Angatech Technologies**.
 
 ## **Overview**
@@ -80,6 +90,7 @@ streamlit run stable_dashboard.py --server.port 8510
 ```
 
 4. **Access the platform**
+   - **Live Demo**: https://ai4i-2020-predictive-maintenance.streamlit.app/
    - Local: http://localhost:8510
    - Network: http://your-ip:8510
 

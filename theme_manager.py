@@ -36,7 +36,7 @@ THEMES = {
 def switch_theme(theme_name):
     """Switch to the specified theme"""
     if theme_name not in THEMES:
-        print(f"❌ Theme '{theme_name}' not found!")
+        print(f"ERROR: Theme '{theme_name}' not found!")
         print(f"Available themes: {', '.join(THEMES.keys())}")
         return False
     
@@ -46,27 +46,27 @@ def switch_theme(theme_name):
     config_file = streamlit_dir / "config.toml"
     
     if not theme_file.exists():
-        print(f"❌ Theme file not found: {theme_file}")
+        print(f"ERROR: Theme file not found: {theme_file}")
         return False
     
     # Backup current config
     if config_file.exists():
         backup_file = streamlit_dir / "config_backup.toml"
         shutil.copy2(config_file, backup_file)
-        print(f"✅ Backed up current config to {backup_file}")
+        print(f"SUCCESS: Backed up current config to {backup_file}")
     
     # Apply new theme
     shutil.copy2(theme_file, config_file)
-    print(f"🎨 Applied theme: {THEMES[theme_name]['name']}")
-    print(f"📝 {THEMES[theme_name]['description']}")
-    print("\n🔄 Restart your dashboard to see the changes:")
+    print(f"Applied theme: {THEMES[theme_name]['name']}")
+    print(f"{THEMES[theme_name]['description']}")
+    print("\nRestart your dashboard to see the changes:")
     print("   python -m streamlit run enterprise_dashboard.py --server.port 8509")
     
     return True
 
 def list_themes():
     """List all available themes"""
-    print("🎨 Available Professional Themes:\n")
+    print("Available Professional Themes:\n")
     
     for key, theme in THEMES.items():
         print(f"  {key}")

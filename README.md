@@ -22,7 +22,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io/)
-[![AngaTech](angatech-high-resolution-logo.png)](https://ww.anga-tech.com)
+[![AngaTech](angatech-high-resolution-logo.png)](https://www.anga-tech.com)
 
 ## Live Demo
 
@@ -32,9 +32,7 @@ Advanced Industrial Predictive Maintenance Dashboard developed by **Angatech Tec
 
 ## **Overview**
 
-The Angatech AI4I Analytics Platform is a comprehensive industrial IoT dashboard that provides real-time monitoring, predictive analytics, and maintenance optimization for industrial equipment. Built with cutting-edge machine learning algorithms and modern web technologies.
-
-![Angatech AI4I Platform](angatech-high-resolution-logo.png)
+The Angatech AI4I Analytics Platform is a comprehensive industrial IoT dashboard that provides real-time monitoring, predictive analytics, and maintenance optimization for industrial equipment. Built with cutting-edge machine learning algorithms and modern web technologies, the platform empowers maintenance teams and operations managers to enhance equipment reliability, reduce downtime, and optimize maintenance schedules.
 
 ## **Key Features**
 
@@ -50,7 +48,7 @@ The Angatech AI4I Analytics Platform is a comprehensive industrial IoT dashboard
 - **Real-time Parameter Monitoring** (Temperature, Pressure, Vibration, Power)
 - **Machine Learning Anomaly Detection** using Isolation Forest
 - **Interactive Dashboards** with Plotly visualizations
-- - **Professional Themes**: Dark Industrial theme optimized for 24/7 control rooms
+- **Professional Themes**: Dark Industrial theme optimized for 24/7 control rooms
 - **Statistical Process Control** with control charts
 - **Financial Impact Analysis** with ROI tracking
 - **Maintenance Recommendations** with priority levels
@@ -75,7 +73,7 @@ The Angatech AI4I Analytics Platform is a comprehensive industrial IoT dashboard
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Tandasi/AI4I-2020-Predictive-Maintenance-Dataset.git
 cd AI4I-2020-Predictive-Maintenance-Dataset
 ```
 
@@ -220,7 +218,7 @@ This is a proprietary Angatech Technologies solution. For modifications or featu
 ## **Support**
 
 ### **Angatech Technologies**
-- **Website:** [AngaTech ](https://www.anga-tech.com)
+- **Website:** [AngaTech](https://www.anga-tech.com)
 - **Email:** support@angatech.com
 - **Project Team:** AI4I Development Division
 
@@ -244,7 +242,8 @@ This software is proprietary to AngaTech and is provided for evaluation and demo
 - **Industrial IoT Integration**
 - **Predictive Maintenance Systems**
 - **Business Intelligence Dashboards**
-- 
+- **Data Engineering & Analytics**
+- **Cloud Solutions & DevOps**
 
 ---
 

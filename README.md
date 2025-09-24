@@ -4,20 +4,25 @@
 
 ## About Angatech Technologies
 
-**Angatech Technologies** is a leading provider of industrial IoT and predictive maintenance solutions. We specialize in:
+**Angatech Technologies** is a growing provider of industrial IoT and predictive maintenance solutions. We focus on delivering practical, data-driven tools that help businesses monitor operations, reduce downtime, and make smarter decisions.
+
+Our areas of expertise include:
 
 - **Advanced Analytics Platforms**
-- **Machine Learning Solutions**
+- **Machine Learning Applications**
 - **Industrial IoT Integration**
 - **Predictive Maintenance Systems**
 - **Business Intelligence Dashboards**
-- **Data Engineering**
-- **Cloud Deployments**
+- **Data Engineering & Analysis**
+- **Cloud-Based Deployments**
 - **Dashboard Development**
 - **Database Management**
-- **Data Analysis**
-- **Intelligent Scheduling and Resource Optimization**
-- **Financial Analysis and Cost Optimization**
+- **Intelligent Scheduling & Resource Optimization**
+- **Financial Analysis & Cost Efficiency Tools**
+
+We’re passionate about building scalable solutions that bridge the gap between data and decision-making—especially for industries looking to modernize their operations.
+
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -159,24 +164,24 @@ python theme_manager.py --theme analytics       # High-contrast for data work
 
 ```
 AI4I-2020-Predictive-Maintenance-Dataset/
-├── stable_dashboard.py              # 🚀 Main dashboard application
-├── predictive_maintenance_api.py    # 🔌 REST API interface  
-├── theme_manager.py                 # 🎨 Theme switching utility
-├── angatech-high-resolution-logo.png # 🎯 Company branding assets
-├── requirements.txt                 # 📦 Python dependencies
-├── docker-compose.yml              # 🐳 Container orchestration
-├── Dockerfile                      # 🐳 Container configuration
-├── .streamlit/                     # ⚙️ Streamlit configuration
+├── stable_dashboard.py              #  Main dashboard application
+├── predictive_maintenance_api.py    #  REST API interface  
+├── theme_manager.py                 # Theme switching utility
+├── angatech-high-resolution-logo.png # Company branding assets
+├── requirements.txt                 # Python dependencies
+├── docker-compose.yml              #  Container orchestration
+├── Dockerfile                      # Container configuration
+├── .streamlit/                     # Streamlit configuration
 │   ├── config.toml                 # Main config
 │   ├── config_dark_industrial.toml # Dark theme
 │   ├── config_corporate.toml       # Corporate theme
 │   ├── config_steel.toml           # Industrial theme
 │   └── config_analytics.toml       # Analytics theme
-├── AI4I Dataset.ipynb              # 📊 Data science & ML analysis
-├── predictive_maintenance_model.pkl # 🤖 Trained ML model
-├── ANGATECH_BRANDING_GUIDE.md      # 📋 Branding documentation
-├── DEPLOYMENT_GUIDE.md             # 📖 Deployment instructions
-└── README.md                       # 📄 Project documentation
+├── AI4I Dataset.ipynb              # Data science & ML analysis
+├── predictive_maintenance_model.pkl # Trained ML model
+├── ANGATECH_BRANDING_GUIDE.md      # Branding documentation
+├── DEPLOYMENT_GUIDE.md             # Deployment instructions
+└── README.md                       # Project documentation
 ```
 
 ## **Configuration**
@@ -249,7 +254,6 @@ This software is proprietary to AngaTech and is provided for evaluation and demo
 - **Data Engineering & Analytics**
 - **Cloud Solutions & DevOps**
 
----
 
 **Developed by the Angatech Team**
 

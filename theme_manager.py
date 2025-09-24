@@ -60,7 +60,7 @@ def switch_theme(theme_name):
     print(f"Applied theme: {THEMES[theme_name]['name']}")
     print(f"{THEMES[theme_name]['description']}")
     print("\nRestart your dashboard to see the changes:")
-    print("   python -m streamlit run enterprise_dashboard.py --server.port 8509")
+    print("   streamlit run stable_dashboard.py --server.port 8510")
     
     return True
 

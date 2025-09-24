@@ -34,6 +34,8 @@ Advanced Industrial Predictive Maintenance Dashboard developed by **Angatech Tec
 
 The Angatech AI4I Analytics Platform is a comprehensive industrial IoT dashboard that provides real-time monitoring, predictive analytics, and maintenance optimization for industrial equipment. Built with cutting-edge machine learning algorithms and modern web technologies, the platform empowers maintenance teams and operations managers to enhance equipment reliability, reduce downtime, and optimize maintenance schedules.
 
+> **✅ Clean & Optimized:** This repository has been streamlined to focus on the core `stable_dashboard.py` application, removing duplicate dashboard files for better maintainability and user experience.
+
 ## **Key Features**
 
 ### **Core Modules**
@@ -156,23 +158,25 @@ python theme_manager.py --theme analytics       # High-contrast for data work
 ## **Project Structure**
 
 ```
-angatech-ai4i-platform/
-├── stable_dashboard.py              # Main dashboard application
-├── theme_manager.py                 # Theme switching utility
-├── angatech-high-resolution-logo.png # Company branding
-├── requirements.txt                 # Python dependencies
-├── docker-compose.yml              # Container orchestration
-├── Dockerfile                      # Container configuration
-├── .streamlit/                     # Streamlit configuration
+AI4I-2020-Predictive-Maintenance-Dataset/
+├── stable_dashboard.py              # 🚀 Main dashboard application
+├── predictive_maintenance_api.py    # 🔌 REST API interface  
+├── theme_manager.py                 # 🎨 Theme switching utility
+├── angatech-high-resolution-logo.png # 🎯 Company branding assets
+├── requirements.txt                 # 📦 Python dependencies
+├── docker-compose.yml              # 🐳 Container orchestration
+├── Dockerfile                      # 🐳 Container configuration
+├── .streamlit/                     # ⚙️ Streamlit configuration
 │   ├── config.toml                 # Main config
 │   ├── config_dark_industrial.toml # Dark theme
 │   ├── config_corporate.toml       # Corporate theme
 │   ├── config_steel.toml           # Industrial theme
 │   └── config_analytics.toml       # Analytics theme
-├── AI4I Dataset.ipynb              # Original data analysis
-├── predictive_maintenance_model.pkl # Trained ML model
-├── ANGATECH_BRANDING_GUIDE.md      # Branding documentation
-└── README.md                       # This file
+├── AI4I Dataset.ipynb              # 📊 Data science & ML analysis
+├── predictive_maintenance_model.pkl # 🤖 Trained ML model
+├── ANGATECH_BRANDING_GUIDE.md      # 📋 Branding documentation
+├── DEPLOYMENT_GUIDE.md             # 📖 Deployment instructions
+└── README.md                       # 📄 Project documentation
 ```
 
 ## **Configuration**

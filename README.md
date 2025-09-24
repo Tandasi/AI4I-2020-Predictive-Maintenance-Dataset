@@ -39,7 +39,7 @@ Advanced Industrial Predictive Maintenance Dashboard developed by **Angatech Tec
 
 The Angatech AI4I Analytics Platform is a comprehensive industrial IoT dashboard that provides real-time monitoring, predictive analytics, and maintenance optimization for industrial equipment. Built with cutting-edge machine learning algorithms and modern web technologies, the platform empowers maintenance teams and operations managers to enhance equipment reliability, reduce downtime, and optimize maintenance schedules.
 
-> **✅ Clean & Optimized:** This repository has been streamlined to focus on the core `stable_dashboard.py` application, removing duplicate dashboard files for better maintainability and user experience.
+> **Clean & Optimized:** This repository has been streamlined to focus on the core `stable_dashboard.py` application, removing duplicate dashboard files for better maintainability and user experience.
 
 ## **Key Features**
 
